@@ -15,6 +15,7 @@
 		3FA43E6E1CF58FB000C88AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA43E6C1CF58FB000C88AB0 /* LaunchScreen.storyboard */; };
 		3FA43E791CF58FB000C88AB0 /* SourceTreeToTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA43E781CF58FB000C88AB0 /* SourceTreeToTestTests.m */; };
 		3FA43E841CF58FB000C88AB0 /* SourceTreeToTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA43E831CF58FB000C88AB0 /* SourceTreeToTestUITests.m */; };
+		3FA43E931CF591FB00C88AB0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA43E921CF591FB00C88AB0 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3FA43E7F1CF58FB000C88AB0 /* SourceTreeToTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceTreeToTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA43E831CF58FB000C88AB0 /* SourceTreeToTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceTreeToTestUITests.m; sourceTree = "<group>"; };
 		3FA43E851CF58FB000C88AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA43E911CF591FB00C88AB0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3FA43E921CF591FB00C88AB0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				3FA43E6C1CF58FB000C88AB0 /* LaunchScreen.storyboard */,
 				3FA43E6F1CF58FB000C88AB0 /* Info.plist */,
 				3FA43E5E1CF58FB000C88AB0 /* Supporting Files */,
+				3FA43E911CF591FB00C88AB0 /* FirstViewController.h */,
+				3FA43E921CF591FB00C88AB0 /* FirstViewController.m */,
 			);
 			path = SourceTreeToTest;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				3FA43E661CF58FB000C88AB0 /* ViewController.m in Sources */,
 				3FA43E631CF58FB000C88AB0 /* AppDelegate.m in Sources */,
 				3FA43E601CF58FB000C88AB0 /* main.m in Sources */,
+				3FA43E931CF591FB00C88AB0 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +507,7 @@
 				3FA43E8A1CF58FB000C88AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA43E8B1CF58FB000C88AB0 /* Build configuration list for PBXNativeTarget "SourceTreeToTestTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				3FA43E8D1CF58FB000C88AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA43E8E1CF58FB000C88AB0 /* Build configuration list for PBXNativeTarget "SourceTreeToTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				3FA43E901CF58FB000C88AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
